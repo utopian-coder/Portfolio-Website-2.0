@@ -5,35 +5,30 @@ import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.png";
 import project4 from "../../assets/project4.png";
+import project5 from "../../assets/project5.png";
+import project6 from "../../assets/project6.png";
 
 const projectTitles = [
   {
     title: "Airbnb",
-    liveLink: "https://utopian-expense-calculator.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-    imgSource:
-      "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
+    liveLink: "https://utopian-booking-app.vercel.app/",
+    gitHubLink: "https://github.com/utopian-coder/Airbnb-Clone",
+    imgSource: project5,
   },
-  {
-    title: "Blogopedia",
-    liveLink: "https://utopian-expense-calculator.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-    imgSource:
-      "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
-  },
+  // {
+  //   title: "Blogopedia",
+  //   liveLink: "https://utopian-expense-calculator.vercel.app/",
+  //   gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
+  //   imgSource:
+  //     "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
+  // },
   {
     title: "State bank of Utopia",
     liveLink: "https://github.com/utopian-coder/Bankist",
     gitHubLink: "https://github.com/utopian-coder/Bankist",
     imgSource: project1,
   },
-  {
-    title: "Bits and Bytes",
-    liveLink: "https://utopian-expense-calculator.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-    imgSource:
-      "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
-  },
+
   {
     title: "Tomato Food Delivery",
     liveLink: "https://utopianfoodheaven.netlify.app/",
@@ -41,16 +36,23 @@ const projectTitles = [
     imgSource: project3,
   },
   {
+    title: "Html-Css-Js Projects",
+    liveLink: "https://github.com/utopian-coder/Html-Css-JavaScript-Projects",
+    gitHubLink: "https://github.com/utopian-coder/Html-Css-JavaScript-Projects",
+    imgSource: project2,
+  },
+  {
     title: "Expense Calculator",
     liveLink: "https://utopian-expense-calculator.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
     imgSource: project4,
   },
+
   {
-    title: "Html-Css-Js Projects",
-    liveLink: "https://github.com/utopian-coder/Html-Css-JavaScript-Projects",
-    gitHubLink: "https://github.com/utopian-coder/Html-Css-JavaScript-Projects",
-    imgSource: project2,
+    title: "Bits and Bytes",
+    liveLink: "https://utopian-expense-calculator.vercel.app/",
+    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
+    imgSource: project6,
   },
 ];
 
