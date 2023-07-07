@@ -1,0 +1,9 @@
+.experience-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience-details-icon {
+  color: var(--color-primary);
+  margin-top: 6px;
+}

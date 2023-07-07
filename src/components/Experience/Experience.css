@@ -1,0 +1,50 @@
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.frontend,
+.backend {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  padding: 2rem 5rem;
+  transition: var(--transition);
+}
+
+.frontend:hover,
+.backend:hover {
+  background-color: var(--color-bg);
+  border-color: var(--color-primary);
+}
+
+.experience-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+}
+
+.experience-container > div h3 {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-content {
+    gap: 2rem;
+    margin: 0 auto;
+  }
+
+  .frontend,
+  .backend {
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}

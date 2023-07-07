@@ -1,0 +1,77 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden; /* Hides anything goes outside container, like the dp */
+}
+
+.header-container {
+  text-align: center;
+  height: 100%;
+  position: relative; /* For absolute position Socials */
+}
+
+.cta {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.header-socials {
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/*Pseduo element that creates a line after socials */
+.header-socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* Profile image */
+
+.me {
+  position: absolute;
+  height: 30rem;
+  width: 22rem;
+  left: calc(50% - 11rem);
+  border-radius: 12rem 12rem 0 0;
+  background: linear-gradient(var(--color-primary), transparent);
+  margin-top: 3rem;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  /* Won't matter if no margin in bottom, header div is already overflow: hidden; */
+  overflow: hidden;
+}
+
+.scroll-down {
+  position: absolute;
+  right: 0;
+  bottom: 5rem;
+  transform: rotate(-90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 69vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header-socials,
+  .scroll-down {
+    display: none;
+  }
+}
