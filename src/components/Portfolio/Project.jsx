@@ -1,48 +1,56 @@
 import React from "react";
 import "./Project.css";
 
+import project1 from "../../assets/project1.png";
+import project2 from "../../assets/project2.jpg";
+import project3 from "../../assets/project3.png";
+import project4 from "../../assets/project4.png";
+
 const projectTitles = [
   {
-    title: "Ttitle",
+    title: "Airbnb",
     liveLink: "https://utopian-expense-calculator.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
     imgSource:
       "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
   },
   {
-    title: "Ttitle",
+    title: "Blogopedia",
     liveLink: "https://utopian-expense-calculator.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
     imgSource:
       "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
   },
   {
-    title: "Ttitle",
+    title: "State bank of Utopia",
+    liveLink: "https://github.com/utopian-coder/Bankist",
+    gitHubLink: "https://github.com/utopian-coder/Bankist",
+    imgSource: project1,
+  },
+  {
+    title: "Bits and Bytes",
     liveLink: "https://utopian-expense-calculator.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
     imgSource:
       "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
   },
   {
-    title: "Ttitle",
-    liveLink: "https://utopian-expense-calculator.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-    imgSource:
-      "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
+    title: "Tomato Food Delivery",
+    liveLink: "https://utopianfoodheaven.netlify.app/",
+    gitHubLink: "https://github.com/utopian-coder/Food-Delivery-App",
+    imgSource: project3,
   },
   {
-    title: "Ttitle",
+    title: "Expense Calculator",
     liveLink: "https://utopian-expense-calculator.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-    imgSource:
-      "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
+    imgSource: project4,
   },
   {
-    title: "Ttitle",
-    liveLink: "https://utopian-expense-calculator.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-    imgSource:
-      "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
+    title: "Html-Css-Js Projects",
+    liveLink: "https://github.com/utopian-coder/Html-Css-JavaScript-Projects",
+    gitHubLink: "https://github.com/utopian-coder/Html-Css-JavaScript-Projects",
+    imgSource: project2,
   },
 ];
 

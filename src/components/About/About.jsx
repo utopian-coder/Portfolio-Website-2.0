@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
+import { AiOutlineLaptop } from "react-icons/ai";
 import "./About.css";
 import profileImage from "../../assets/me-about.jpg";
 
@@ -23,21 +24,22 @@ const About = () => {
               <small>15+ Projects</small>
             </article>
             <article className='about-card'>
-              <FaAward className='about-icon' />
-              <h5>Experince</h5>
-              <small>3+ Years Working</small>
+              <AiOutlineLaptop className='about-icon' />
+              <h5>LeetCode</h5>
+              <small>240+ Solved</small>
             </article>
             <article className='about-card'>
               <FaAward className='about-icon' />
-              <h5>Reviews</h5>
+              <h5>Experience</h5>
               <small>3+ Years Working</small>
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam
-            dicta, enim nulla ab velit soluta iste et unde voluptate iusto
-            voluptatibus suscipit quod voluptas? Repudiandae quaerat illum iusto
-            magni.
+            I'm an xperienced full-stack developer proficient in MERN stack with
+            a passion for problem-solving. Skilled in tackling data structure
+            and algorithms challenges to enhance problem-solving abilities.
+            Ready to create robust and efficient solutions to meet your
+            development needs.
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk

@@ -4,7 +4,7 @@ import "./ExperienceDetails.css";
 
 const experienceFrontend = [
   {
-    skill: "CSS",
+    skill: "Html",
     mastery: "Intermediate",
   },
   {
@@ -12,19 +12,19 @@ const experienceFrontend = [
     mastery: "Intermediate",
   },
   {
-    skill: "CSS",
+    skill: "JavaScript",
     mastery: "Intermediate",
   },
   {
-    skill: "CSS",
+    skill: "Tailwind CSS",
     mastery: "Intermediate",
   },
   {
-    skill: "CSS",
+    skill: "Bootstrap",
     mastery: "Intermediate",
   },
   {
-    skill: "CSS",
+    skill: "ReactJs",
     mastery: "Intermediate",
   },
 ];
@@ -35,23 +35,23 @@ const experienceBackend = [
     mastery: "Intermediate",
   },
   {
-    skill: "NodeJs",
+    skill: "ExpressJs",
     mastery: "Intermediate",
   },
   {
-    skill: "NodeJs",
+    skill: "MongoDB",
     mastery: "Intermediate",
   },
   {
-    skill: "NodeJs",
+    skill: "Moongoose",
     mastery: "Intermediate",
   },
   {
-    skill: "NodeJs",
+    skill: "MySql",
     mastery: "Intermediate",
   },
   {
-    skill: "NodeJs",
+    skill: "REST Api",
     mastery: "Intermediate",
   },
 ];

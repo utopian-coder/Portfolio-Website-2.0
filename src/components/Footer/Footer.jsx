@@ -43,13 +43,22 @@ const Footer = () => {
           </li>
         </ul>
         <div className='links'>
-          <a href='https://facebook.com' className='link-icon'>
+          <a
+            href='https://www.facebook.com/imran.biswas.73700'
+            className='link-icon'
+          >
             <FaFacebookF />
           </a>
-          <a href='https://instagram.com' className='link-icon'>
+          <a
+            href='https://www.instagram.com/___utopian_/'
+            className='link-icon'
+          >
             <AiOutlineInstagram />
           </a>
-          <a href='https://linkedin.com' className='link-icon'>
+          <a
+            href='https://www.linkedin.com/in/imranbiswas/'
+            className='link-icon'
+          >
             <GrLinkedinOption />
           </a>
         </div>
