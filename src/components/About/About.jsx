@@ -3,7 +3,7 @@ import { FaAward } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { AiOutlineLaptop } from "react-icons/ai";
 import "./About.css";
-import profileImage from "../../assets/me-about.jpg";
+import profileImage from "../../assets/about.png";
 
 const About = () => {
   return (
