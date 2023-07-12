@@ -50,8 +50,8 @@ const projectTitles = [
 
   {
     title: "Bits and Bytes",
-    liveLink: "https://utopian-expense-calculator.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
+    liveLink: "https://utopian-bits-and-bytes.vercel.app/",
+    gitHubLink: "https://github.com/utopian-coder/Bits-and-Bytes",
     imgSource: project6,
   },
 ];
