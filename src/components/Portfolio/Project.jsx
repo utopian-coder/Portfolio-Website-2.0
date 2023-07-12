@@ -10,18 +10,17 @@ import project6 from "../../assets/project6.png";
 
 const projectTitles = [
   {
+    title: "Bits and Bytes",
+    liveLink: "https://utopian-bits-and-bytes.vercel.app/",
+    gitHubLink: "https://github.com/utopian-coder/Bits-and-Bytes",
+    imgSource: project6,
+  },
+  {
     title: "Airbnb",
     liveLink: "https://utopian-booking-app.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Airbnb-Clone",
     imgSource: project5,
   },
-  // {
-  //   title: "Blogopedia",
-  //   liveLink: "https://utopian-expense-calculator.vercel.app/",
-  //   gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
-  //   imgSource:
-  //     "https://cdn.dribbble.com/userupload/8347832/file/original-24707a3e5c47020f194dd442fb682df5.png?compress=1&resize=1200x900",
-  // },
   {
     title: "State bank of Utopia",
     liveLink: "https://github.com/utopian-coder/Bankist",
@@ -46,13 +45,6 @@ const projectTitles = [
     liveLink: "https://utopian-expense-calculator.vercel.app/",
     gitHubLink: "https://github.com/utopian-coder/Expense-Calculator",
     imgSource: project4,
-  },
-
-  {
-    title: "Bits and Bytes",
-    liveLink: "https://utopian-bits-and-bytes.vercel.app/",
-    gitHubLink: "https://github.com/utopian-coder/Bits-and-Bytes",
-    imgSource: project6,
   },
 ];
 
