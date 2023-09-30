@@ -43,7 +43,7 @@ const experienceBackend = [
     mastery: "Intermediate",
   },
   {
-    skill: "Moongoose",
+    skill: "Mongoose",
     mastery: "Intermediate",
   },
   {
