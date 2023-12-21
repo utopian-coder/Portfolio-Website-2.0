@@ -5,54 +5,49 @@ import "./ExperienceDetails.css";
 const experienceFrontend = [
   {
     skill: "Html",
-    mastery: "Intermediate",
   },
   {
     skill: "CSS",
-    mastery: "Intermediate",
   },
   {
     skill: "JavaScript",
-    mastery: "Intermediate",
   },
   {
     skill: "Tailwind CSS",
-    mastery: "Intermediate",
   },
   {
     skill: "Bootstrap",
-    mastery: "Intermediate",
   },
   {
     skill: "ReactJs",
-    mastery: "Intermediate",
+  },
+  {
+    skill: "React Native",
   },
 ];
 
 const experienceBackend = [
   {
+    skill: "Python",
+  },
+  {
+    skill: "FastAPI",
+  },
+
+  {
     skill: "NodeJs",
-    mastery: "Intermediate",
   },
   {
     skill: "ExpressJs",
-    mastery: "Intermediate",
   },
   {
     skill: "MongoDB",
-    mastery: "Intermediate",
   },
   {
     skill: "Mongoose",
-    mastery: "Intermediate",
   },
   {
-    skill: "MySql",
-    mastery: "Intermediate",
-  },
-  {
-    skill: "REST Api",
-    mastery: "Intermediate",
+    skill: "REST API",
   },
 ];
 
@@ -62,7 +57,6 @@ export const ExperienceDetailsFrontend = () => {
       <BsPatchCheckFill className='experience-details-icon' />
       <div>
         <h4>{exp.skill}</h4>
-        <small className='text-light'>{exp.mastery}</small>
       </div>
     </article>
   ));
@@ -74,7 +68,6 @@ export const ExperienceDetailsBackend = () => {
       <BsPatchCheckFill className='experience-details-icon' />
       <div>
         <h4>{exp.skill}</h4>
-        <small className='text-light'>{exp.mastery}</small>
       </div>
     </article>
   ));
