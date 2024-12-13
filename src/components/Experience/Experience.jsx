@@ -13,13 +13,13 @@ const Experience = () => {
 
       <div className='container experience-container'>
         <div className='frontend'>
-          <h3>Frontend Skills</h3>
+          <h3>Frontend Engineering</h3>
           <div className='experience-content'>
             <ExperienceDetailsFrontend />
           </div>
         </div>
         <div className='backend'>
-          <h3>Backend Skills</h3>
+          <h3>Backend Engineering</h3>
           <div className='experience-content'>
             <ExperienceDetailsBackend />
           </div>

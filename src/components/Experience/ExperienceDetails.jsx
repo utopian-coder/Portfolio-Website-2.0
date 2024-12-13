@@ -13,13 +13,19 @@ const experienceFrontend = [
     skill: "JavaScript",
   },
   {
+    skill: "TypeScript",
+  },
+  {
     skill: "Tailwind CSS",
   },
   {
     skill: "Bootstrap",
   },
   {
-    skill: "ReactJs",
+    skill: "ReactJS",
+  },
+  {
+    skill: "NextJS",
   },
   {
     skill: "React Native",
@@ -33,21 +39,32 @@ const experienceBackend = [
   {
     skill: "FastAPI",
   },
-
   {
-    skill: "NodeJs",
+    skill: "gRPC",
   },
   {
-    skill: "ExpressJs",
+    skill: "NodeJS",
+  },
+  {
+    skill: "ExpressJS",
   },
   {
     skill: "MongoDB",
   },
   {
-    skill: "Mongoose",
+    skill: "mongoose",
   },
   {
-    skill: "REST API",
+    skill: "mongoengine",
+  },
+  {
+    skill: 'Java',
+  },
+  {
+    skill: 'Spring Boot',
+  },
+  {
+    skill: 'SQL'
   },
 ];
 

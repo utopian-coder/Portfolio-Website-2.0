@@ -39,13 +39,13 @@ const Contact = () => {
           <article className='contact-option-card'>
             <AiOutlineMail />
             <h4>Email</h4>
-            <p className='text-light'>email@gmail.com</p>
+            <p className='text-light'>imran.biswas.dev@gmail.com</p>
             <a href='mailto:useandthrow2209@gmail.com'>Send a message</a>
           </article>
           <article className='contact-option-card'>
             <AiOutlineWhatsApp />
             <h4>Whatsapp</h4>
-            <p className='text-light'>+91-7263873645</p>
+            <p className='text-light'>+91-7365057128</p>
             <a
               href='https://api.whatsapp.com/send?phone=7365057128'
               target='_blank'

@@ -1,6 +1,6 @@
 .contact-option-card {
   background-color: var(--color-bg-variant);
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   border: 1px solid transparent;
   border-radius: 1.25rem;
   /* width: max-content; */
