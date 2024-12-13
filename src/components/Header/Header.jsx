@@ -12,9 +12,9 @@ const Header = () => {
         <h1>Imran Biswas</h1>
         <h5 className='text-light'>Fullstack Developer</h5>
         <Cta />
-        <a href='' className='scroll-down'>
+        {/* <a href='' className='scroll-down'>
           Scroll Down
-        </a>
+        </a> */}
         <Socials />
         <div className='me'>
           <img src={profileImage} alt='Imran Biswas' />
