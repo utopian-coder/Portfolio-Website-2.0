@@ -40,7 +40,7 @@ const Contact = () => {
             <AiOutlineMail />
             <h4>Email</h4>
             <p className='text-light'>imran.biswas.dev@gmail.com</p>
-            <a href='mailto:useandthrow2209@gmail.com'>Send a message</a>
+            <a href='mailto:imran.biswas.dev@gmail.com'>Send a message</a>
           </article>
           <article className='contact-option-card'>
             <AiOutlineWhatsApp />
